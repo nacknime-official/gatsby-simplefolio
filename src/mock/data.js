@@ -3,7 +3,7 @@ import uuidv1 from 'uuid/v1';
 // HEAD DATA
 export const headData = {
   title: 'Maksym Goncharenko | Developer', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
+  lang: 'ru, ua, us', // e.g: en, es, fr, jp
   description: '', // e.g: Welcome to my website
 };
 
@@ -11,47 +11,32 @@ export const headData = {
 export const heroData = {
   title: '',
   name: 'Maksym',
-  subtitle: 'I\'m the Python Developer',
+  subtitle: "and I'm the Python Developer",
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphOne:
+    "I'm the backend developer from Ukraine. I use Python as the main programming language. I like it for its simplicity and the possibilities that Python libraries can give you.",
+  paragraphTwo: 'For today I mainly write Telegram bots for various purposes.',
+  paragraphThree:
+    "Maybe, you'll be interested, I don't know, but.. I use Linux as the main OS on my laptop (Thinkpad T480s)(i don't know why I wrote this, but I think customer should know as much about the programmer as possible, including his/her hardware). And I think that programmers, which use Linux(next - LP), are better than Windows programmers(next - WP) because WP don't know about the \"Philosophy of Unix\" that says \"Do one thing and Do it well\"(DOTADIW), therefore the LP's code will be more logical, separate and customizable.",
+  resume: '', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: uuidv1(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: uuidv1(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: uuidv1(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'gdz_ukraine_bot.jpg',
+    title: 'GDZ Ukraine Bot',
+    info: "That's a telegram bot which show you a solution for your school homework",
+    info2:
+      "Written in AIOgram, currently I fully rewrite it to pure AIOgram code and it'll grab all solutions from an APIs",
+    url: 'https://t.me/gdz_ukraine_bot',
+    repo: 'https://github.com/nacknime-official/gdz_ukraine', // if no repo, the button will not show up
   },
 ];
 
@@ -59,7 +44,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'lenovo.maks@gmail.com',
 };
 
 // FOOTER DATA
@@ -67,18 +52,8 @@ export const footerData = {
   networks: [
     {
       id: uuidv1(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: uuidv1(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: uuidv1(),
-      name: 'linkedin',
-      url: '',
+      name: 'telegram',
+      url: 'https://t.me/nacknime',
     },
     {
       id: uuidv1(),
@@ -90,5 +65,5 @@ export const footerData = {
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
