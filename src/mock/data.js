@@ -34,9 +34,19 @@ export const projectsData = [
     title: 'GDZ Ukraine Bot',
     info: "That's a telegram bot which show you a solution for your school homework",
     info2:
-      "Written in AIOgram, currently I fully rewrite it to pure AIOgram code and it'll grab all solutions from an APIs",
+      'Written in AIOgram, GINO, HTTPx. It grabs all data from APIs (currently from the only one, but I wanna extend the list of the APIs)',
     url: 'https://t.me/gdz_ukraine_bot',
     repo: 'https://github.com/nacknime-official/gdz_ukraine', // if no repo, the button will not show up
+  },
+  {
+    id: uuidv1(),
+    img: 'olx_scraper.jpg',
+    title: 'OLX Scraper',
+    info: 'A scraper, written in Scrapy library',
+    info2:
+      'It grabs Title Ad, Seller Name, Description of good/service, Product/service ID, Location, Phone number, Price, Time of publication, Link, Number of views',
+    url: 'https://youtu.be/oK8DB3arvaM',
+    repo: '', // if no repo, the button will not show up
   },
 ];
 
