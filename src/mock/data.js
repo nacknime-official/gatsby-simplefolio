@@ -17,7 +17,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'for_site.svg',
   paragraphOne:
     "I'm the backend developer from Ukraine. I use Python as the main programming language. I like it for its simplicity and the possibilities that Python libraries can give you.",
   paragraphTwo: 'For today I mainly write Telegram bots for various purposes.',
