@@ -54,7 +54,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: 'lenovo.maks@gmail.com',
+  email: 'nacknime.official@gmail.com',
 };
 
 // FOOTER DATA
