@@ -70,6 +70,11 @@ export const footerData = {
       name: 'github',
       url: 'https://github.com/nacknime-official',
     },
+    {
+      id: uuidv1(),
+      name: 'freelancehunt',
+      url: 'https://freelancehunt.com/freelancer/nacknime.html',
+    },
   ],
 };
 
