@@ -75,6 +75,11 @@ export const footerData = {
       name: 'freelancehunt',
       url: 'https://freelancehunt.com/freelancer/nacknime.html',
     },
+    {
+      id: uuidv1(),
+      name: 'linkedin',
+      url: 'https://www.linkedin.com/in/maksym-honcharenko-78aa401b2/',
+    },
   ],
 };
 
