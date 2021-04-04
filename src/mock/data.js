@@ -80,6 +80,11 @@ export const footerData = {
       name: 'linkedin',
       url: 'https://www.linkedin.com/in/maksym-honcharenko-78aa401b2/',
     },
+    {
+      id: uuidv1(),
+      name: 'spotify',
+      url: 'https://open.spotify.com/user/9lg0tybiomslsbkm5b6ge3vp8',
+    },
   ],
 };
 
