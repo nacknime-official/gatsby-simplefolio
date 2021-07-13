@@ -1,4 +1,4 @@
-import uuidv1 from 'uuid/v1';
+import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
@@ -29,7 +29,7 @@ export const aboutData = {
 // PROJECTS DATA
 export const projectsData = [
   {
-    id: uuidv1(),
+    id: nanoid(),
     img: 'gdz_ukraine_bot.jpg',
     title: 'GDZ Ukraine Bot',
     info: "That's a telegram bot which show you a solution for your school homework",
@@ -39,7 +39,7 @@ export const projectsData = [
     repo: 'https://github.com/nacknime-official/gdz_ukraine', // if no repo, the button will not show up
   },
   {
-    id: uuidv1(),
+    id: nanoid(),
     img: 'olx_scraper.jpg',
     title: 'OLX Scraper',
     info: 'A scraper, written in Scrapy library',
@@ -61,27 +61,27 @@ export const contactData = {
 export const footerData = {
   networks: [
     {
-      id: uuidv1(),
+      id: nanoid(),
       name: 'telegram',
       url: 'https://t.me/nacknime',
     },
     {
-      id: uuidv1(),
+      id: nanoid(),
       name: 'github',
       url: 'https://github.com/nacknime-official',
     },
     {
-      id: uuidv1(),
+      id: nanoid(),
       name: 'freelancehunt',
       url: 'https://freelancehunt.com/freelancer/nacknime.html',
     },
     {
-      id: uuidv1(),
+      id: nanoid(),
       name: 'linkedin',
       url: 'https://www.linkedin.com/in/maksym-honcharenko-78aa401b2/',
     },
     {
-      id: uuidv1(),
+      id: nanoid(),
       name: 'spotify',
       url: 'https://open.spotify.com/user/9lg0tybiomslsbkm5b6ge3vp8',
     },

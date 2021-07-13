@@ -65,20 +65,23 @@ $ git remote remove origin
 Then you can install the dependencies either using NPM or Yarn:
 
 Using NPM:
+
 ```bash
 # Install dependencies
 $ npm install
 
 # Start development server
-$ gatsby develop
+$ npm run develop
 ```
+
 Using Yarn:
+
 ```bash
 # Install dependencies
 $ yarn
 
 # Start development server
-$ gatsby develop
+$ yarn develop
 ```
 
 **NOTE**:
@@ -137,7 +140,7 @@ Put as many projects object you want inside the `array`.
 ```javascript
 export const projectsData = [
   {
-    id: uuidv1(),
+    id: nanoid(),
     img: 'project.jpg',
     title: '',
     info: '',
@@ -146,7 +149,7 @@ export const projectsData = [
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
   {
-    id: uuidv1(),
+    id: nanoid(),
     img: 'project.jpg',
     title: '',
     info: '',
@@ -177,22 +180,22 @@ Just put an object with the corresponding values inside the networks `array` or 
 export const footerData = {
   networks: [
     {
-      id: uuidv1(),
+      id: nanoid(),
       name: 'twitter',
       url: '', // your twitter url
     },
     {
-      id: uuidv1(),
+      id: nanoid(),
       name: 'codepen',
       url: '', // your codepen url
     },
     {
-      id: uuidv1(),
+      id: nanoid(),
       name: 'linkedin',
       url: '', // your linkedin url
     },
     {
-      id: uuidv1(),
+      id: nanoid(),
       name: 'github',
       url: '', // your github url
     },

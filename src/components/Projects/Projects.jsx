@@ -27,8 +27,8 @@ const Projects = () => {
       <Container>
         <div className="project-wrapper">
           <Title title="Projects" />
-          {projects.map(project => {
-            const { id, title, info, info2, url, repo, img } = project;
+          {projects.map((project) => {
+            const { title, info, info2, url, repo, img, id } = project;
 
             return (
               <Row key={id}>
