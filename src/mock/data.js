@@ -23,7 +23,7 @@ export const aboutData = {
   paragraphTwo: 'For today I mainly write Telegram bots for various purposes.',
   paragraphThree:
     "Maybe, you'll be interested, I don't know, but.. I use Linux as the main OS on my laptop (Thinkpad T480s)(i don't know why I wrote this, but I think customer should know as much about the programmer as possible, including his/her hardware). And I think that programmers, which use Linux(next - LP), are better than Windows programmers(next - WP) because WP don't know about the \"Philosophy of Unix\" that says \"Do one thing and Do it well\"(DOTADIW), therefore the LP's code will be more logical, separate and customizable.",
-  resume: '', // if no resume, the button will not show up
+  resume: '1', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
