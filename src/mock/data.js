@@ -32,7 +32,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'gdz_ukraine_bot.jpg',
     title: 'GDZ Ukraine Bot',
-    info: "That's a telegram bot which show you a solution for your school homework",
+    info: "That's a Telegram bot that shows you a solution for your school homework",
     info2:
       'Written in AIOgram, GINO, HTTPx. It grabs all data from APIs (currently from the only one, but I wanna extend the list of the APIs)',
     url: 'https://t.me/gdz_ukraine_bot',
