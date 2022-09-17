@@ -38,16 +38,6 @@ export const projectsData = [
     url: 'https://gdz_ukraine_bot.t.me',
     repo: 'https://github.com/nacknime-official/gdz_ukraine', // if no repo, the button will not show up
   },
-  {
-    id: nanoid(),
-    img: 'olx_scraper.jpg',
-    title: 'OLX Scraper',
-    info: 'A scraper, written in Scrapy library',
-    info2:
-      'It grabs Title Ad, Seller Name, Description of good/service, Product/service ID, Location, Phone number, Price, Time of publication, Link, Number of views',
-    url: 'https://youtu.be/oK8DB3arvaM',
-    repo: '', // if no repo, the button will not show up
-  },
 ];
 
 // CONTACT DATA
