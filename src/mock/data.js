@@ -35,7 +35,7 @@ export const projectsData = [
     info: "That's a Telegram bot that shows you a solution for your school homework",
     info2:
       'Written in AIOgram, GINO, HTTPx. It grabs all data from APIs (currently from the only one, but I wanna extend the list of the APIs)',
-    url: 'https://t.me/gdz_ukraine_bot',
+    url: 'https://gdz_ukraine_bot.t.me',
     repo: 'https://github.com/nacknime-official/gdz_ukraine', // if no repo, the button will not show up
   },
   {
@@ -63,7 +63,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'telegram',
-      url: 'https://t.me/nacknime',
+      url: 'https://nacknime.t.me',
     },
     {
       id: nanoid(),
