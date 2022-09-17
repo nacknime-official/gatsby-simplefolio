@@ -78,7 +78,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'linkedin',
-      url: 'https://www.linkedin.com/in/maksym-honcharenko-78aa401b2/',
+      url: 'https://www.linkedin.com/in/nacknime/',
     },
     {
       id: nanoid(),
