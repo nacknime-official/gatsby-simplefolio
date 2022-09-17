@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: '',
   name: 'Maksym',
-  subtitle: "and I'm the Python Developer",
+  subtitle: "and I'm the Backend Developer",
   cta: '',
 };
 
@@ -19,8 +19,8 @@ export const heroData = {
 export const aboutData = {
   img: 'for_site.svg',
   paragraphOne:
-    "I'm the backend developer from Ukraine. I use Python as the main programming language. I like it for its simplicity and the possibilities that Python libraries can give you.",
-  paragraphTwo: 'For today I mainly write Telegram bots for various purposes.',
+    "I'm the backend developer from Ukraine. I use Golang and Python as the main programming languages.",
+  paragraphTwo: "For now I work at INC4 - blockchain technology development company on AirDAO Bridge project.",
   paragraphThree:
     "Maybe, you'll be interested, I don't know, but.. I use Linux as the main OS on my laptop (Thinkpad T480s)(i don't know why I wrote this, but I think customer should know as much about the programmer as possible, including his/her hardware). And I think that programmers, which use Linux(next - LP), are better than Windows programmers(next - WP) because WP don't know about the \"Philosophy of Unix\" that says \"Do one thing and Do it well\"(DOTADIW), therefore the LP's code will be more logical, separate and customizable.",
   resume: '1', // if no resume, the button will not show up
