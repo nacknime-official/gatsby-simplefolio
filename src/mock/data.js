@@ -22,7 +22,7 @@ export const aboutData = {
     "I'm the backend developer from Ukraine. I use Golang and Python as the main programming languages.",
   paragraphTwo: "Currently I work at INC4 - blockchain technology development company on AirDAO Bridge project.",
   paragraphThree:
-    "Maybe, you'll be interested, I don't know, but.. I use Linux as the main OS on my laptop (Thinkpad T480s)(i don't know why I wrote this, but I think customer should know as much about the programmer as possible, including his/her hardware). And I think that programmers, which use Linux(next - LP), are better than Windows programmers(next - WP) because WP don't know about the \"Philosophy of Unix\" that says \"Do one thing and Do it well\"(DOTADIW), therefore the LP's code will be more logical, separate and customizable.",
+    "I use Arch btw. neovim, sway (wayland), thinkpad and stuff like that.",
   resume: '1', // if no resume, the button will not show up
 };
 
