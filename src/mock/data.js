@@ -20,7 +20,7 @@ export const aboutData = {
   img: 'for_site.svg',
   paragraphOne:
     "I'm the backend developer from Ukraine. I use Golang and Python as the main programming languages.",
-  paragraphTwo: "Currently I work at INC4 - blockchain technology development company on AirDAO Bridge project.",
+  paragraphTwo: "I worked at INC4 - blockchain technology development company on AirDAO Bridge project. But now I'm open to work, so feel free to contact me :)",
   paragraphThree:
     "I use Arch btw. neovim, sway (wayland), thinkpad and stuff like that.",
   resume: '1', // if no resume, the button will not show up
