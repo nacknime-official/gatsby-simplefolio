@@ -75,6 +75,11 @@ export const footerData = {
       name: 'spotify',
       url: 'https://open.spotify.com/user/9lg0tybiomslsbkm5b6ge3vp8',
     },
+    {
+      id: nanoid(),
+      name: 'youtube',
+      url: 'https://www.youtube.com/@nacknime1804',
+    },
   ],
 };
 
