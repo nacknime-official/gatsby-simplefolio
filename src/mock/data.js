@@ -80,6 +80,11 @@ export const footerData = {
       name: 'youtube',
       url: 'https://www.youtube.com/@nacknime1804',
     },
+    {
+      id: nanoid(),
+      name: 'instagram',
+      url: 'https://www.instagram.com/nack.nime/',
+    },
   ],
 };
 
